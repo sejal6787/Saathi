@@ -1,13 +1,33 @@
+# Python virtual environment
 venv/
 .venv/
-__pycache__/
-*.py[cod]
+
+# Environment variables and secrets
 .env
 .env.*
 !.env.example
-*.db
-*.sqlite3
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Testing and coverage
 .pytest_cache/
-.mypy_cache/
+.coverage
+htmlcov/
+
+# IDE and editor
 .vscode/
 .idea/
+
+# Operating system
+.DS_Store
+Thumbs.db
+
+# Flutter / Dart generated files
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+build/
